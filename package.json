@@ -1,0 +1,22 @@
+{
+  "name": "@canonical/maraca",
+  "version": "0.1.0",
+  "description": "Handle data from the Juju mega-watcher in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juju/maraca.git"
+  },
+  "keywords": [
+    "juju"
+  ],
+  "author": "Huw Wilkins <huw.wilkins@canonical.com>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/juju/maraca/issues"
+  },
+  "homepage": "https://github.com/juju/maraca#readme"
+}
