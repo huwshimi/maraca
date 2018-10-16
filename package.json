@@ -1,0 +1,34 @@
+{
+  "name": "@canonical/maraca",
+  "version": "0.1.0",
+  "description": "Handle data from the Juju mega-watcher in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "tap --cov ./lib/test-*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juju/maraca.git"
+  },
+  "keywords": [
+    "juju"
+  ],
+  "author": "Huw Wilkins <huw.wilkins@canonical.com>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/juju/maraca/issues"
+  },
+  "homepage": "https://github.com/juju/maraca#readme",
+  "dependencies": {
+    "deepmerge": "^2.2.1",
+    "shapeup": "^0.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "lodash.clonedeep": "^4.5.0",
+    "prop-types": "^15.6.2",
+    "sinon": "^7.0.0",
+    "tap": "^12.0.1"
+  }
+}
