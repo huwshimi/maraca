@@ -5,9 +5,11 @@
 const deltaHandlers = require('./lib/maraca');
 const Maraca = require('./lib/maraca');
 const parsers = require('./lib/parsers');
+const propTypes = require('./lib/prop-types');
 
 module.exports = {
   deltaHandlers,
   Maraca,
-  parsers
+  parsers,
+  propTypes
 };
