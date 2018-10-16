@@ -1,6 +1,6 @@
 {
   "name": "@canonical/maraca",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Handle data from the Juju mega-watcher in JavaScript",
   "main": "index.js",
   "scripts": {
